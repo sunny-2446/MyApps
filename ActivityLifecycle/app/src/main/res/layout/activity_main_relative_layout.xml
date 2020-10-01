@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/tony_stark_new"
+        android:layout_centerInParent="true"
+
+        />
+
+    <TextView
+
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:text="Hello World! i am sunny your developer"
+        android:padding="10dp"
+        android:textColor="#991700"
+        android:textStyle="italic"  />
+    <TextView
+        android:id="@+id/txtLayoutsubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bhardwajsunny103@gmail.com \n+917903315549"
+        android:padding="10dp"
+        android:textColor="#1a237e"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtLayoutHeader"/>
+
+
+    <EditText
+        android:layout_below="@id/txtLayoutsubHeader"
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password "
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:text="click here"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a Relative Layout"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="#1a237e"
+        android:textStyle="bold"
+        android:layout_below="@id/imgTonyStark"/>
+
+
+</RelativeLayout>

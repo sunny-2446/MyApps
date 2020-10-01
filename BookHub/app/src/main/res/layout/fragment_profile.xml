@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.Profile"
+    android:background="#4475F6F2"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/person"
+        android:layout_centerHorizontal="true"
+        android:elevation="8dp"/>
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer - Sunny Bhardwaj"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_boundary"
+        android:layout_margin="10dp"
+        android:padding="10sp"
+        android:layout_below="@id/imgProfile"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact - +917903315549"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="8dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/text_boundary"
+        android:padding="10sp"
+        android:layout_below="@id/txtProfile"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail - bhardwajsunny103@gmail.com"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="4dp"
+        android:layout_margin="10dp"
+        android:padding="10sp"
+        android:background="@drawable/text_boundary"
+        android:layout_below="@id/txtPhone"
+        android:textColor="#000"
+      />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="8dp"
+        android:background="@drawable/text_boundary"
+        android:layout_margin="10dp"
+        android:padding="10sp"
+        android:layout_below="@id/txtEmail"
+       />
+    </RelativeLayout>
+
+</ScrollView>

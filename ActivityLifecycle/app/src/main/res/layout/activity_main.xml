@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AvengersActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/tony_stark_new"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="Hello World! i am sunny your developer"
+        android:padding="10dp"
+        android:textColor="#991700"
+        android:textStyle="italic"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bhardwajsunny103@gmail.com \n+917903315549"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="#1a237e"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password "
+        android:layout_margin="10dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F44336"
+            android:text="click here"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:textSize="18sp" />
+
+
+</LinearLayout>

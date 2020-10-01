@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Hunger</string>
+    <string name="Mobile_Number">Enter Mobile Number(10 digits)</string>
+    <string name="Password">Enter Password</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="Preference_File">Hunger Preferences</string>
+    <string name="Register_Preference">Register Preference</string>
+    <string name="HomePage">Home</string>
+    <string name="Profile">My Profile</string>
+    <string name="FavouriteRestaurants">Favourite Restaurants</string>
+    <string name="Faqs">FAQs</string>
+    <string name="About">About</string>
+    <string name="LogOut">Log Out</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_from_the_menu_below">Choose from the menu below :</string>
+    <string name="rs_100_person">Rs.100/person</string>
+    <string name="food_name">Food Name</string>
+    <string name="place_order">Place Order</string>
+    <string name="add">ADD</string>
+    <string name="app_details">This is a experimental food app presenting some of the virtual restaurants near you extracted from a local database where you can sort the restaurants add them to your favourites for your future reference and also order them which will be delivered only in the virtual world</string>
+    <string name="no_fav_restaurant">You don\'t have any favourites</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password_max_4_characters">New Password (Max. 4 characters)</string>
+    <string name="otp_4_characters">OTP (4 characters)</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="openDrawer">Open drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+</resources>

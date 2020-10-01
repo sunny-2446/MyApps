@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="Favourites">Favourites</string>
+    <string name="Profile">Profile</string>
+    <string name="About">About</string>
+    <string name="navigation_drawer">Book Hub</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favourites_fragement">Favourites Fragement</string>
+    <string name="profile_fragment">Profile fragment</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="phone_number">Enter your Phone Number</string>
+    <string name="enetr_your_email">Enetr your Email</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="name_of_the_book">Name of the Book</string>
+    <string name="name_of_the_authorr">Name of the Authorr</string>
+    <string name="hello_blank_fragement">Hello Blank Fragement</string>
+    <string name="Sort">Sort</string>
+    <string name="address">Address - B.no 3 Shastrinagar , Kadma , Jamshedpur ,India</string>
+    <string name="about_app_details">This is a book app depicting the details of some of the popular books extracted from a local Database you can also sort the books according to the ratings of the books and also add them to your favourites list for your future reference .</string>
+</resources>
